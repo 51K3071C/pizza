@@ -5,8 +5,8 @@ from time import sleep
 from sys import stdout
 from random import random
 
-typing_speed = 120 #wpm
-def slow_type(t: str):
+typing_speed = 500 #wpm
+def slow_type(t):
   """
   Creates a typing animation effect.
   """
